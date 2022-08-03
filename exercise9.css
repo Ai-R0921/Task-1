@@ -23,9 +23,7 @@ main {
   background-color: #EEEEEE;
 }
 
-.main-box:last-child {
-  margin-right: 0;
-}
+
 
 .step-img1 {
   height: 150px;
@@ -72,22 +70,17 @@ footer {
   }
 
   main {
-    width: 90%;
+    width: 100%;
     display: block;
   }
 
   .main-box {
     width: 90%;
     margin: 0 auto;
-  }
-
-  .main-box:first-child {
     margin-bottom: 20px;
   }
 
-  .main-box:last-child {
-    margin: 20px 0 50px 35px;
-  }
+
 
   .step-img1 {
     background-position:  0 170px;
@@ -103,8 +96,15 @@ footer {
     background-position: 0 180px;
     height: 150px;
   }
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #AAAAAA;
+  margin-top: 30px;
 }
 
+}
 @media screen and (max-width: 425px) {
   header {
     width: 100%;
